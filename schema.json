@@ -8,15 +8,17 @@
           },
           {
             "name": "pacientes_dia",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Paciente-Dia"
+            "title": "Paciente-Dia",
+            "groupChar": "."
           },
           {
             "name": "saidas",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "title": "Saídas Hospitalares"
+            "title": "Saídas Hospitalares",
+            "groupChar": "."
           },
           {
             "name": "obitos_hospitalares",
@@ -30,52 +32,61 @@
           },
           {
             "name": "leitos_dia",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar": "."
           },
           {
             "name": "internacoes",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar": "."
           },
           {
             "name": "consultas_eletivas",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar": "."
           },
           {
             "name": "consultas_urgencia",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "groupChar": "."
           },
           {
             "name": "permanencia",
-            "type": "integer",
+            "type": "number",
             "format": "default",
             "title": "Média de Permanência",
-            "description": "Média de Permanência, em dias"
+            "description": "Média de Permanência, em dias",
+            "decimalChar": ","
           },
           {
             "name": "ocupacao",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "mortalidade_geral",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "description": "taxa de mortalidade"
+            "description": "taxa de mortalidade",
+            "decimalChar": ","
           },
           {
             "name": "mortalidade_institucional",
-            "type": "integer",
+            "type": "number",
             "format": "default",
-            "description": "taxa de mortalidade"
+            "description": "taxa de mortalidade",
+            "decimalChar": ","
           },
           {
             "name": "renovacao_leitos",
-            "type": "integer",
-            "format": "default"
+            "type": "number",
+            "format": "default",
+            "decimalChar": ","
           },
           {
             "name": "mes",
