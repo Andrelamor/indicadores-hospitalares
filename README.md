@@ -1,0 +1,1 @@
+[![frictionless](https://github.com/Andrelamor/indicadores-hospitalares/actions/workflows/frictionless.yaml/badge.svg)](https://github.com/Andrelamor/indicadores-hospitalares/actions/workflows/frictionless.yaml)
