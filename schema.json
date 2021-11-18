@@ -1,0 +1,91 @@
+{
+        "fields": [
+          {
+            "name": "hospital",
+            "type": "string",
+            "format": "default",
+            "title": "Hospital"
+          },
+          {
+            "name": "pacientes_dia",
+            "type": "integer",
+            "format": "default",
+            "title": "Paciente-Dia"
+          },
+          {
+            "name": "saidas",
+            "type": "integer",
+            "format": "default",
+            "title": "Saídas Hospitalares"
+          },
+          {
+            "name": "obitos_hospitalares",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "obitos_institucionais",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "leitos_dia",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "internacoes",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "consultas_eletivas",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "consultas_urgencia",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "permanencia",
+            "type": "integer",
+            "format": "default",
+            "title": "Média de Permanência",
+            "description": "Média de Permanência, em dias"
+          },
+          {
+            "name": "ocupacao",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "mortalidade_geral",
+            "type": "integer",
+            "format": "default",
+            "description": "taxa de mortalidade"
+          },
+          {
+            "name": "mortalidade_institucional",
+            "type": "integer",
+            "format": "default",
+            "description": "taxa de mortalidade"
+          },
+          {
+            "name": "renovacao_leitos",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "mes",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "ano",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }

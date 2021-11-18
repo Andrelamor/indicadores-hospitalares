@@ -1,0 +1,43 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "indicadores-hospitalares-2021-09",
+      "path": "data/indicadores-hospitalares-2021-09.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "indicadores hospitalares de setembro ",
+      "format": "csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "indicadores-hospitalares-2021-10",
+      "path": "data/indicadores-hospitalares-2021-10.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "indicadores hospitalares de outubro ",
+      "format": "csv",
+      "encoding": "utf-8"
+    }
+  ],
+  "keywords": [
+    "indicadores hospitalares"
+  ],
+  "name": "indicadores-hospitalares",
+  "title": "Indicadores Hospitalares",
+  "homepage": "https://github.com/fhemig",
+  "version": "0.0.9",
+  "contributors": [
+    {
+      "title": "Guilherme",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
