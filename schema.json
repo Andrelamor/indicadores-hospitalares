@@ -4,7 +4,8 @@
             "name": "hospital",
             "type": "string",
             "format": "default",
-            "title": "Hospital"
+            "title": "Hospital",
+            "description": "sigla da unidade hospitalar"
           },
           {
             "name": "pacientes_dia",

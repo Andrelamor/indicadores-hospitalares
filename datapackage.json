@@ -26,6 +26,7 @@
   "name": "indicadores-hospitalares",
   "title": "Indicadores Hospitalares",
   "homepage": "https://github.com/fhemig",
+  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
   "version": "0.0.9",
   "contributors": [
     {
@@ -39,5 +40,12 @@
       "title": "Creative Commons Attribution 4.0",
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
-  ]
+  ],
+  "ckan_hosts": {
+    "https://homologa.cge.mg.gov.br": {
+      "indicadores-hospitalares-2021-09": "8dd16c58-e2cb-419f-8a47-14a25018d195",
+      "indicadores-hospitalares-2021-10": "9075f563-ac23-4fb3-a911-ccbdf7a93adf",
+      "datapackage.json": "375182de-76e8-4573-8425-bf2496e5656f"
+    }
+  }
 }
